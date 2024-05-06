@@ -1,0 +1,351 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header {
+    background-color: rgb(90, 180, 244);
+    height: 75vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    border: 1px solid white;
+    box-shadow: 12px 12px rgb(99, 171, 238);
+    height: 90px;
+    width: 90px;
+    color: rgb(24, 155, 249);
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    margin-left: 150px;
+}
+
+.hamburger {
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 2px;
+    background: white;
+    height: 5px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hamburgers {
+    margin-top: 40px;
+    margin-right: 150px;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 150px;
+}
+
+.content h1 {
+    font-size: 80px;
+    color: white;
+    padding: 5px;
+    margin-top: 80px;
+}
+
+.content h3 {
+    font-size: 30px;
+    color: rgb(238, 235, 235);
+    font-weight: 100;
+    padding: 5px;
+    letter-spacing: 3px;
+}
+
+.content h3 span {
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.phone-with-download {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.iphone5-top {
+    margin-left: 250px;
+}
+
+.download-button {
+    height: 50px;
+    padding: 20px;
+    border: 2px solid white;
+    color: rgb(238, 235, 235);
+    background-color: rgb(90, 180, 244);
+    margin-right: 150px;
+    padding-bottom: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.download-button img {
+    margin-left: 10px;
+}
+
+.longwinded-header {
+    position: relative;
+    background-color: rgb(232, 236, 238);
+    height: 75vh;
+    display: flex;
+    padding: 120px 0px 0px 150px;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.longwinded-header-heading {
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(137, 134, 134);
+    letter-spacing: 1px;
+}
+
+.longwinded-header-firstpara {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(152, 148, 148);
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.longwinded-header-secondpara {
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(152, 148, 148);
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-left: 17px;
+}
+
+.pipe {
+    border: 1px solid rgb(64, 143, 233);
+    width: 10px;
+    height: 60px;
+    background-color: rgb(68, 145, 233);
+}
+
+.pipe-with-content {
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.longwinded-header-content {
+    width: 47%;
+}
+
+.say-hello-button {
+    padding: 20px 40px;
+    font-size: 17px;
+    border: 2px solid rgb(31, 163, 31);
+    color: rgb(31, 163, 31);
+    margin-top: 70px;
+}
+
+.middle-section {
+    position: relative;
+    background-color: white;
+    height: 75vh;
+    display: flex;
+    padding: 80px 0px 0px 0px;
+    flex-direction: row;
+    z-index: 103;
+    justify-content: space-between;
+}
+
+.multi-photos {
+    display: flex;
+    align-items: last baseline;
+}
+
+.macbook {
+    position: absolute;
+    bottom: -60px;
+    z-index: 200;
+}
+
+.imac {
+    position: absolute;
+    bottom: -20px;
+    left: 110px;
+    z-index: 199;
+}
+
+.ipad {
+    position: absolute;
+    bottom: -30px;
+    left: 450px;
+    z-index: 201;
+}
+
+.iphone5 {
+    position: absolute;
+    left: 590px;
+    z-index: 203;
+    bottom: -30px;
+}
+
+.ipad-mini {
+    position: absolute;
+    left: 640px;
+    z-index: 201;
+    bottom: -30px;
+}
+
+.right-side-container {
+    width: 30%;
+    position: relative;
+    right: 250px;
+}
+
+.right-heading {
+    font-size: 40px;
+    font-weight: lighter;
+    color: rgb(77, 76, 76);
+    letter-spacing: 1px;
+}
+
+.right-first {
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(110, 108, 108);
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 25px;
+}
+
+.right-second {
+    font-size: 15px;
+    font-weight: lighter;
+    color: rgb(152, 148, 148);
+    letter-spacing: 1px;
+    line-height: 25px;
+    margin-top: 30px;
+}
+
+.dribble-btn {
+    margin-top: 30px;
+    font-size: 17px;
+    color: rgb(210, 45, 125);
+    padding: 20px;
+    border: 2px solid rgb(210, 45, 125);
+    border-bottom: 4px solid;
+}
+
+.green-section {
+    position: relative;
+    background-color: rgb(16, 139, 80);
+    height: 43vh;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.like-what {
+    font-size: 40px;
+    color: white;
+}
+
+.beer-btn {
+    font-size: 17px;
+    color: rgb(246, 243, 243);
+    background-color: rgb(16, 139, 80);
+    border: 2px solid rgb(253, 243, 243);
+    padding: 20px 30px;
+    margin-top: 30px;
+}
+
+.bottom-last-section {
+    position: relative;
+    background-color: rgb(231, 237, 234);
+    height: 75vh;
+    z-index: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.all-icons img {
+    padding: 20px;
+}
+
+.newsletter {
+    display: flex;
+    padding: 50px;
+    align-items: last baseline;
+}
+
+.subscription {
+    font-size: 17px;
+    color: rgb(104, 102, 102);
+    margin-right: 90px;
+}
+
+.input-button {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 40px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+}
+
+.input-button input {
+    height: 100%;
+    font-weight: 100;
+    padding: 8px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.small-pipe {
+    height: 30px;
+    width: 20px;
+    border: 1px solid rgb(178, 178, 231);
+}
+
+.input-button button {
+    font-size: 17px;
+    margin-left: 10px;
+    border: none;
+}
+
+
+.last-section {
+    background-color: rgb(255, 255, 255);
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section p {
+    font-size: 12px;
+    color: rgb(121, 121, 121);
+}
+
+.last-section p span {
+    color: rgb(68, 147, 211);
+}
